@@ -1,0 +1,23 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# local runtime / harvest artifacts (may contain flags, sessions, tokens)
+jobs/
+work/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+**/.pi-sessions/
+*.tar.gz
+
+# runtime logs and reports may contain flags, sessions, tokens, and prompts
+logs/
+
+# editor / OS
+.idea/
+.vscode/
+*.swp
+*~

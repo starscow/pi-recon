@@ -1,0 +1,25 @@
+# never bake local harvest history / archives into the image
+logs/
+logs/**
+jobs/
+jobs/**
+work/
+work/**
+dist/
+dist/**
+.git/
+**/.pi-sessions/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+*.tar.gz
+README.md
+.gitignore
+.DS_Store
+**/*.bak-*
+**/run-*
+**/raw_events/
+**/sessions/
