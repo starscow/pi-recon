@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">PI Recon</title>
+  <desc id="desc">PI Recon project banner with a radar-inspired reconnaissance interface.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#26323d" stroke-width="1"/>
+    </pattern>
+    <clipPath id="radarClip">
+      <circle cx="1320" cy="250" r="184"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1600" height="500" fill="#0b1015"/>
+  <rect width="1600" height="500" fill="url(#grid)" opacity="0.58"/>
+  <rect x="0" y="0" width="14" height="500" fill="#39d98a"/>
+
+  <g fill="none" stroke="#39d98a" opacity="0.72">
+    <circle cx="1320" cy="250" r="184" stroke-width="2"/>
+    <circle cx="1320" cy="250" r="126" stroke-width="1.5"/>
+    <circle cx="1320" cy="250" r="68" stroke-width="1.5"/>
+    <path d="M1136 250H1504M1320 66V434" stroke-width="1.5"/>
+    <path d="M1320 250L1457 128" stroke-width="5" opacity="0.44" clip-path="url(#radarClip)"/>
+  </g>
+
+  <g fill="#55c7ff">
+    <circle cx="1408" cy="171" r="7"/>
+    <circle cx="1241" cy="312" r="6"/>
+  </g>
+  <circle cx="1376" cy="335" r="7" fill="#ffb454"/>
+  <circle cx="1320" cy="250" r="5" fill="#39d98a"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="105" y="118" fill="#39d98a" font-size="24" font-weight="700" letter-spacing="2">AUTHORIZED RECONNAISSANCE</text>
+    <text x="100" y="250" fill="#f3f7fa" font-size="104" font-weight="800" letter-spacing="0">PI RECON</text>
+    <text x="105" y="314" fill="#aab8c4" font-size="30" letter-spacing="0">DISCOVER  /  VERIFY  /  DOCUMENT</text>
+    <text x="105" y="393" fill="#55c7ff" font-size="21" letter-spacing="0">AUTOMATED SECURITY CHALLENGE WORKFLOWS</text>
+  </g>
+</svg>
